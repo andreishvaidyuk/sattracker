@@ -30,6 +30,9 @@ def main():
     tracker.visualization()
     print("Visualization finished")
 
+    print("Show map")
+    tracker.show_map()
+
     #print("\nNext passes information:")
     #for i in range(5):
     #    next_pass = tracker.next_pass()

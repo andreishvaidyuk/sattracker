@@ -8,6 +8,9 @@ import SatTracker.helpers as helpers
 from SatTracker.helpers import *
 import folium
 import pandas as pd
+import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
+from cartopy.feature.nightshade import Nightshade
 
 
 class SatTracker:
@@ -148,6 +151,25 @@ class SatTracker:
         for lat, lon in zip(lat, lon):
             folium.CircleMarker(location=[lat, lon], radius=5, fill_color='red', color='gray').add_to(map_simu)
             map_simu.save("map.html")
+
+    def show_map(self):
+        fig = plt.figure(figsize=(10, 5))
+        ax = fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
+        ax.set_global()
+        ax.gridlines()
+        date = datetime.utcnow()
+        ax.set_title("Night time shading for {}".format(date))
+        ax.stock_img()
+        ax.add_feature(Nightshade(date, alpha=0.2))
+
+        data = pd.read_csv("SatTracker\\text_files\Sat_pass_stat.txt")
+        lat = data['LAT']
+        lon = data['LON']
+
+        for lat, lon in zip(lat, lon):
+            ax.scatter(float(lon), float(lat),
+                    color='red', linewidth=0.3, transform=ccrs.Geodetic(),)
+        plt.show()
 
     def write_statistic(self):
         with open("SatTracker\\text_files\Sat_pass_stat.txt", 'a') as file_object:
