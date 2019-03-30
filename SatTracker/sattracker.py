@@ -139,18 +139,39 @@ class SatTracker:
 
     def visualization(self):
         map_simu = folium.Map(location=defaults.gs_location,
-                              zoom_start=2, tiles="Mapbox Bright",
+                              zoom_start=2.2,
                               control_scale=True,
                               prefer_canvas=True,
                               )
 
-        data = pd.read_csv("SatTracker\\text_files\Sat_pass_stat.txt")
+        data = pd.read_csv("SatTracker\\text_files\Sat_coordinates.csv")
         lat = data['LAT']
         lon = data['LON']
 
-        for lat, lon in zip(lat, lon):
-            folium.CircleMarker(location=[lat, lon], radius=5, fill_color='red', color='gray').add_to(map_simu)
-            map_simu.save("map.html")
+        antenna_icon = folium.features.CustomIcon('webinterface\\images\\antenna.png', icon_size=(25, 25))
+        satellite_icon = folium.features.CustomIcon('webinterface\\images\\satellite.png', icon_size=(25, 25))
+
+        # Marker for Ground station
+        folium.Marker(
+            location=[float(self.location['latitude']), float(self.location['longitude'])],
+            icon=antenna_icon
+        ).add_to(map_simu)
+
+        # Circle marker
+        # folium.CircleMarker(
+        #     location=[float(self.location['latitude']), float(self.location['longitude'])],
+        #     radius=100,
+        #     color='red',
+        #     fill_color='blue'
+        # ).add_to(map_simu)
+
+        # for lat, lon in zip(lat, lon):
+        folium.Marker(
+            location=[float(lat), float(lon)],
+            icon=satellite_icon
+        ).add_to(map_simu),
+
+        map_simu.save("map.html")
 
     def show_map(self):
         fig = plt.figure(figsize=(10, 5))
@@ -176,4 +197,13 @@ class SatTracker:
             data = str(datetime.utcnow()) + "," + \
                    str(helpers.dms_to_deg(self.satellite.sublat)) + "," + \
                    str(helpers.dms_to_deg(self.satellite.sublong)) + "\n"
+            file_object.writelines(data)
+
+    def write_sat_coordinates(self):
+        with open("SatTracker\\text_files\\Sat_coordinates.csv", 'w') as file_object:
+            header = "date,LAT,LON"
+            data = str(datetime.utcnow()) + "," + \
+                str(helpers.dms_to_deg(self.satellite.sublat)) + "," + \
+                str(helpers.dms_to_deg(self.satellite.sublong)) + "\n"
+            file_object.writelines(header+'\n')
             file_object.writelines(data)

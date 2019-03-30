@@ -1,7 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d59ed58e-7076-4db3-aece-9115c03ef183" name="Default Changelist" comment="" />
+    <list default="true" id="d59ed58e-7076-4db3-aece-9115c03ef183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SatTracker/text_files/Sat_coordinates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Cartopy-0.17.0.dist-info/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Cartopy-0.17.0.dist-info/COPYING.LESSER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Cartopy-0.17.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Cartopy-0.17.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Cartopy-0.17.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Cartopy-0.17.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Cartopy-0.17.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Shapely-1.6.4.post1.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Shapely-1.6.4.post1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Shapely-1.6.4.post1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Shapely-1.6.4.post1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Shapely-1.6.4.post1.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/Shapely-1.6.4.post1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/_crs.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/_epsg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/crs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/netcdf/HadISST1_SST_update.README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/netcdf/HadISST1_SST_update.nc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/raster/natural_earth/50-natural-earth-1-downsampled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/raster/natural_earth/images.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/raster/sample/Miriam.A2012270.2050.2km.README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/raster/sample/Miriam.A2012270.2050.2km.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/shapefiles/gshhs/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/shapefiles/gshhs/c/GSHHS_c_L1.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/data/shapefiles/gshhs/l/GSHHS_l_L2.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/always_circular_stereo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/arrows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/aurora_forecast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/axes_grid_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/barbs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/eccentric_ellipse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/effects_of_the_ellipse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/eyja_volcano.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/favicon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/feature_creation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/geostationary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/global_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/hurricane_katrina.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/image_tiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/logo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/nightshade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/regridding_arrows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/reprojected_wmts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/rotated_pole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/star_shaped_boundary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/streamplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/tick_labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/tissot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/tube_stations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/un_flag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/utm_all_zones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/waves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/wms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/wmts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/examples/wmts_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/feature/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/feature/nightshade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/geodesic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/geodesic/_geodesic.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/img_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/img_nest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/img_tiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/ogc_clients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/shapereader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/srtm.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/srtm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/clip_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/feature_artist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/geoaxes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/gridliner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/slippy_image_artist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/mpl/ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/sphinxext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/sphinxext/summarise_package.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_albers_equal_area.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_azimuthal_equidistant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_eckert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_equal_earth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_equidistant_conic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_geostationary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_gnomonic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_interrupted_goode_homolosine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_lambert_azimuthal_equal_area.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_lambert_conformal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_mercator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_miller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_mollweide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_nearside_perspective.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_orthographic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_robinson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_rotated_geodetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_rotated_pole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_sinusoidal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_stereographic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_transverse_mercator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/crs/test_utm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/feature/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/feature/test_nightshade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/io/test_downloaders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/io/test_ogc_clients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/io/test_srtm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/lakes_shapefile/ne_110m_lakes.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_axes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_caching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_contour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_crs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_feature_artist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_gridliner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_img_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_mpl_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_nightshade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_pseudo_color.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_quiver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_set_extent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_shapely_to_mpl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_ticks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/mpl/test_web_services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_coastline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_coding_standards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_crs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_crs_transform_vectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_geodesic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_img_nest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_img_tiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_img_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_line_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_linear_ring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_shapereader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/tests/test_vector_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/trace.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/vector_transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/DLLs/geos_c.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/_buildcfg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/_geos.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/affinity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/algorithms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/algorithms/cga.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/algorithms/polylabel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/coords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/ctypes_declarations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/examples/dissolve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/examples/geoms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/examples/intersect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/ftools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/geo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/linestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/multilinestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/multipoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/multipolygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geometry/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/geos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/iterops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/linref.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/predicates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/prepared.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/speedups/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/speedups/_speedups.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/speedups/_speedups.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/speedups/_speedups.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/strtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/topology.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/vectorized/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/vectorized/_vectorized.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/vectorized/_vectorized.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/wkb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stvenv/Lib/site-packages/shapely/wkt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webinterface/images/antenna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SatTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SatTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SatTracker/sattracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/SatTracker/sattracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SatTracker/text_files/Sat_pass_stat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SatTracker/text_files/Sat_pass_stat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SatTracker/text_files/tle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SatTracker/text_files/tle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webinterface/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/webinterface/map.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,64 +248,69 @@
     <session id="-1502928854">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="83" />
-          <entry key="py" value="6839" />
+          <entry key="Python Console" value="89" />
+          <entry key="py" value="8987" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="6922" />
+          <entry key="Python" value="9076" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
-          <entry key="txt" value="9" />
+          <entry key="csv" value="1" />
+          <entry key="html" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="19" />
+          <entry key="rst" value="1" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="9" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="19" />
+          <entry key="ReST" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SatTracker/sattracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="148" column="12" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+            <state relative-caret-position="271">
+              <caret line="139" column="28" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
               <folding>
                 <element signature="e#1#13#0" expanded="true" />
-                <element signature="e#878#2052#0" />
-                <element signature="e#2478#3333#0" />
-                <element signature="e#3202#3588#0" />
-                <element signature="e#3038#3159#0" />
-                <element signature="e#3463#3611#0" />
-                <element signature="e#2489#2820#0" />
-                <element signature="e#4312#5054#0" />
-                <element signature="e#6032#6295#0" />
+                <element signature="e#878#1800#0" />
+                <element signature="e#1859#2539#0" />
+                <element signature="e#2583#2969#0" />
+                <element signature="e#3030#3404#0" />
+                <element signature="e#3788#4275#0" />
+                <element signature="e#4310#4872#0" />
+                <element signature="e#5020#6270#0" />
+                <element signature="e#5814#5829#0" />
+                <element signature="e#5619#6805#0" />
+                <element signature="e#5517#5834#0" />
+                <element signature="e#7296#7606#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SatTracker/text_files/Sat_pass_stat.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -106,11 +327,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SatTracker/printer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="85">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#49#107#1" />
-                <element signature="e#732#804#1" />
+                <element signature="e#79#714#0" />
+                <element signature="e#755#1301#0" />
+                <element signature="e#1344#1602#0" />
               </folding>
             </state>
           </provider>
@@ -119,11 +341,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="454">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SatTracker/text_files/Sat_coordinates.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SatTracker/text_files/Sat_pass_stat.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1349">
+              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -145,21 +381,21 @@
       <list>
         <option value="$PROJECT_DIR$/SatTracker/textfiles/tle.txt" />
         <option value="$PROJECT_DIR$/SatTracker/text_files/tle.txt" />
-        <option value="$PROJECT_DIR$/webinterface/map.py" />
         <option value="$PROJECT_DIR$/SatTracker/helpers.py" />
         <option value="$PROJECT_DIR$/SatTracker/default.py" />
         <option value="$PROJECT_DIR$/SatTracker/text_files/Sat_pass_stat.txt" />
         <option value="$PROJECT_DIR$/SatTracker/printer.py" />
-        <option value="$PROJECT_DIR$/trial.py" />
+        <option value="$PROJECT_DIR$/webinterface/map.py" />
         <option value="$PROJECT_DIR$/SatTracker/sattracker.py" />
+        <option value="$PROJECT_DIR$/trial.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2425" />
+    <option name="height" value="1313" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,7 +403,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,15 +421,30 @@
               <item name="SatTracker" type="462c0819:PsiDirectoryNode" />
               <item name="text_files" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sattracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/python_study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a.shvaidyuk\PythonProjects\sattracker\webinterface\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a.shvaidyuk\PythonProjects\sattracker\webinterface\images" />
+      <recent name="C:\Users\a.shvaidyuk\PythonProjects\sattracker\stvenv\Lib\site-packages" />
+      <recent name="C:\Users\a.shvaidyuk\AppData\Local\Continuum\anaconda3\Lib\site-packages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,19 +572,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31328487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42917848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -346,28 +597,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/new_tle.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SatTracker/text_files/new_tle.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webinterface/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="2" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/new_tle.txt" />
+    <entry file="file://$PROJECT_DIR$/SatTracker/text_files/new_tle.txt" />
     <entry file="file://$PROJECT_DIR$/SatTracker/helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#2#14#0" expanded="true" />
-            <element signature="e#933#1554#0" />
-            <element signature="e#1145#1701#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -378,23 +613,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SatTracker/text_files/Sat_pass_stat.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/geos/default_settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SatTracker/printer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#49#107#1" />
-            <element signature="e#732#804#1" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/ephem/doc/faq.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/folium/map.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/branca/plugins/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SatTracker/default.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -403,33 +635,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trial.py">
+    <entry file="file://$USER_HOME$/Downloads/whats_new-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="15" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/srtm.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/feature/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stvenv/Lib/site-packages/cartopy/io/shapereader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webinterface/images/antenna.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webinterface/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SatTracker/printer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#79#714#0" />
+            <element signature="e#755#1301#0" />
+            <element signature="e#1344#1602#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SatTracker/sattracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="148" column="12" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+        <state relative-caret-position="271">
+          <caret line="139" column="28" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
           <folding>
             <element signature="e#1#13#0" expanded="true" />
-            <element signature="e#878#2052#0" />
-            <element signature="e#2478#3333#0" />
-            <element signature="e#3202#3588#0" />
-            <element signature="e#3038#3159#0" />
-            <element signature="e#3463#3611#0" />
-            <element signature="e#2489#2820#0" />
-            <element signature="e#4312#5054#0" />
-            <element signature="e#6032#6295#0" />
+            <element signature="e#878#1800#0" />
+            <element signature="e#1859#2539#0" />
+            <element signature="e#2583#2969#0" />
+            <element signature="e#3030#3404#0" />
+            <element signature="e#3788#4275#0" />
+            <element signature="e#4310#4872#0" />
+            <element signature="e#5020#6270#0" />
+            <element signature="e#5814#5829#0" />
+            <element signature="e#5619#6805#0" />
+            <element signature="e#5517#5834#0" />
+            <element signature="e#7296#7606#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SatTracker/text_files/Sat_pass_stat.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1349">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SatTracker/text_files/Sat_coordinates.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
