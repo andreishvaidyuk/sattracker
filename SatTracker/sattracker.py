@@ -2,7 +2,6 @@
 import ephem
 import SatTracker.default as defaults
 from datetime import datetime
-import math
 import time
 import SatTracker.helpers as helpers
 from SatTracker.helpers import *
@@ -11,6 +10,11 @@ import pandas as pd
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
 from cartopy.feature.nightshade import Nightshade
+from SatTracker.map3d import Map3d, TileLayer3d
+from geojson import Feature, Point, LineString
+import json
+import geojson
+from flask import render_template
 
 
 class SatTracker:
@@ -111,13 +115,12 @@ class SatTracker:
         Find satellite altitude and azimuth for current time
         :return:
         """
-        degrees_per_radian = 180.0 / math.pi
         print("\nSatellite: " + self.id)
         while True:
             self.observer.date = datetime.utcnow()
             self.satellite.compute(self.observer)
             print("altitude: %4.2f deg, azimuth: %5.2f deg" %
-                  (self.satellite.alt*degrees_per_radian, self.satellite.az*degrees_per_radian))
+                  (self.satellite.alt*defaults.degrees_per_radian, self.satellite.az*defaults.degrees_per_radian))
             time.sleep(1.0)
 
     def next_pass(self):
@@ -148,8 +151,8 @@ class SatTracker:
         lat = data['LAT']
         lon = data['LON']
 
-        antenna_icon = folium.features.CustomIcon('webinterface\\images\\antenna.png', icon_size=(25, 25))
-        satellite_icon = folium.features.CustomIcon('webinterface\\images\\satellite.png', icon_size=(25, 25))
+        antenna_icon = folium.features.CustomIcon('SatTracker\\images\\antenna.png', icon_size=(25, 25))
+        satellite_icon = folium.features.CustomIcon('SatTracker\\images\\satellite.png', icon_size=(25, 25))
 
         # Marker for Ground station
         folium.Marker(
@@ -158,20 +161,41 @@ class SatTracker:
         ).add_to(map_simu)
 
         # Circle marker
-        # folium.CircleMarker(
-        #     location=[float(self.location['latitude']), float(self.location['longitude'])],
-        #     radius=100,
-        #     color='red',
-        #     fill_color='blue'
-        # ).add_to(map_simu)
+        folium.CircleMarker(
+            location=[float(self.location['latitude']), float(self.location['longitude'])],
+            radius=100,
+            color='red',
+            fill_color='blue'
+        ).add_to(map_simu)
 
-        # for lat, lon in zip(lat, lon):
+        # Marker for satellite
         folium.Marker(
             location=[float(lat), float(lon)],
             icon=satellite_icon
         ).add_to(map_simu),
 
         map_simu.save("map.html")
+
+    def visualization_3d_globe(self):
+        # Initialize the 3D globe
+        m = Map3d(location=defaults.gs_location, tiles=None, zoom_start=2.2)
+
+        # Add a Map Tiles on top of the Globe
+        m.add_child(TileLayer3d(tiles='OpenStreetMap'))
+
+        url = ('http://services.arcgisonline.com/arcgis/rest/services'
+               'Ocean/World_Ocean_Base'
+               'MapServer/tile/{z}/{y}/{x}')
+
+        folium.TileLayer(
+            tiles=url,
+            name='World_Ocean_Base',
+            attr='ESRI',
+            overlay=True
+        ).add_to(m)
+
+        # Show it
+        m.save("map3d.html")
 
     def show_map(self):
         fig = plt.figure(figsize=(10, 5))
@@ -183,7 +207,7 @@ class SatTracker:
         ax.stock_img()
         ax.add_feature(Nightshade(date, alpha=0.2))
 
-        data = pd.read_csv("SatTracker\\text_files\Sat_pass_stat.txt")
+        data = pd.read_csv("SatTracker\\text_files\Sat_coordinates.csv")
         lat = data['LAT']
         lon = data['LON']
 
@@ -192,7 +216,28 @@ class SatTracker:
                     color='red', linewidth=0.3, transform=ccrs.Geodetic(),)
         plt.show()
 
+    def find_realtime_coord(self):
+        """
+        Receive data for last calculation.
+        Make geojson.Point object with received coordinates
+        Converting to string in 'geojson' format
+        :return: creating and writing geojson.Point object to 'map.geojson' file
+        """
+        data = pd.read_csv("SatTracker\\text_files\Sat_coordinates.csv")
+        lat = data['LAT']
+        lon = data['LON']
+
+        point = Point([float(lon), float(lat)])
+        feature = Feature(geometry=point)
+        dump = geojson.dumps(feature, sort_keys=True)
+        with open("webinterface\map.geojson", 'w') as file_object:
+            file_object.writelines(dump)
+
     def write_statistic(self):
+        """
+        Write data to the "Sat_pass_stat.txt" for each calculation
+        :return:
+        """
         with open("SatTracker\\text_files\Sat_pass_stat.txt", 'a') as file_object:
             data = str(datetime.utcnow()) + "," + \
                    str(helpers.dms_to_deg(self.satellite.sublat)) + "," + \
@@ -200,6 +245,10 @@ class SatTracker:
             file_object.writelines(data)
 
     def write_sat_coordinates(self):
+        """
+        Write data to "Sat_coordinates.csv" for last calculation
+        :return:
+        """
         with open("SatTracker\\text_files\\Sat_coordinates.csv", 'w') as file_object:
             header = "date,LAT,LON"
             data = str(datetime.utcnow()) + "," + \

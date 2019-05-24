@@ -1,0 +1,12 @@
+#my-map {
+    width:1080px;
+    height:730px;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+
+body{
+    margin:0;
+    padding:0;
+}

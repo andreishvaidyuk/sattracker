@@ -1,4 +1,6 @@
 from SatTracker import helpers
+import SatTracker.default as defaults
+
 
 def print_sat_coordinates(sat_coord_info):
     """
@@ -9,6 +11,8 @@ def print_sat_coordinates(sat_coord_info):
     print("Time: " + str(sat_coord_info[0]))
     print("Latitude: " + str(sat_coord_info[1].sublat),
           "\nLongitude: " + str(sat_coord_info[1].sublong),
+          "\nAltitude: " + str(sat_coord_info[1].alt * defaults.degrees_per_radian),
+          "\nAzimuth: " + str(sat_coord_info[1].az * defaults.degrees_per_radian),
           "\nGeocentric height above sea level (km): " + str(sat_coord_info[1].elevation/1000),
           "\nDistance from observer to satellite (km): " + str(sat_coord_info[1].range/1000),
           "\nRange rate of change (m/s): " + str(sat_coord_info[1].range_velocity),
