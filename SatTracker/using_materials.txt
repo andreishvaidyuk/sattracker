@@ -1,2 +1,4 @@
 1. https://programminghistorian.org/en/lessons/mapping-with-python-leaflet
-2.
+2. https://github.com/perliedman/leaflet-realtime  - возможно на замену Mapbox для движения спутника
+3. https://github.com/python-visualization
+4. https://leafletjs.com/examples/quick-start/   - замена Mapbox

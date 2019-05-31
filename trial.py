@@ -19,7 +19,7 @@ def main():
     tracker.load_tle("SatTracker\\text_files\\tle.txt")
 
     print("\nGround longitude/latitude under that satellite now: ")
-    for i in range(10):
+    for i in range(1):
         sat_info = tracker.find_sat_coordinates_for_now()
         print_sat_coordinates(sat_info)
         tracker.write_statistic()
@@ -44,5 +44,5 @@ def main():
     # tracker.find_satellite_alt_az()
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()

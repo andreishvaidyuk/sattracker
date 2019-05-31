@@ -223,14 +223,14 @@ class SatTracker:
         Converting to string in 'geojson' format
         :return: creating and writing geojson.Point object to 'map.geojson' file
         """
-        data = pd.read_csv("SatTracker\\text_files\Sat_coordinates.csv")
+        data = pd.read_csv("..\SatTracker\\text_files\Sat_coordinates.csv")
         lat = data['LAT']
         lon = data['LON']
 
         point = Point([float(lon), float(lat)])
         feature = Feature(geometry=point)
         dump = geojson.dumps(feature, sort_keys=True)
-        with open("webinterface\map.geojson", 'w') as file_object:
+        with open("static\map.geojson", 'w') as file_object:
             file_object.writelines(dump)
 
     def write_statistic(self):
@@ -238,7 +238,7 @@ class SatTracker:
         Write data to the "Sat_pass_stat.txt" for each calculation
         :return:
         """
-        with open("SatTracker\\text_files\Sat_pass_stat.txt", 'a') as file_object:
+        with open("..\SatTracker\\text_files\\Sat_pass_stat.txt", 'a') as file_object:
             data = str(datetime.utcnow()) + "," + \
                    str(helpers.dms_to_deg(self.satellite.sublat)) + "," + \
                    str(helpers.dms_to_deg(self.satellite.sublong)) + "\n"
@@ -249,7 +249,7 @@ class SatTracker:
         Write data to "Sat_coordinates.csv" for last calculation
         :return:
         """
-        with open("SatTracker\\text_files\\Sat_coordinates.csv", 'w') as file_object:
+        with open("..\SatTracker\\text_files\\Sat_coordinates.csv", 'w') as file_object:
             header = "date,LAT,LON"
             data = str(datetime.utcnow()) + "," + \
                 str(helpers.dms_to_deg(self.satellite.sublat)) + "," + \
